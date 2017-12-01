@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "blockTest.h"
 @interface ViewController ()
 
 @end
@@ -43,23 +42,6 @@
     NSLog(@"a = %c",a);
     
     ////////////////////////////////////////////////////以下是block传值的实验 结论：block修改外部对象中的值时不需要__block
-    blockTest *bTest = [[blockTest alloc] init];
-    int buxiushi = 77;
-    __block int xiushi = 88;
-    
-    void (^testBlock)(void) = ^{
-        bTest.testNum = 555;
-        xiushi = 99;
-        NSLog(@"buxiushi在block里 = %d",buxiushi);
-        NSLog(@"在block中时对象中的值为%d",bTest.testNum);
-    };
-    buxiushi = 99;
-    NSLog(@"一开始的对象中的值为%d",bTest.testNum);
-    testBlock();
-    NSLog(@"xiushi = %d,buxiushi = %d",xiushi,buxiushi);
-    NSLog(@"之后的对象中的值为%d",bTest.testNum);
-    
-    
 }
 
 void solution(int List[],int N){

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E853A9C1FC491360056C4BE /* blockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E853A9B1FC491360056C4BE /* blockTest.m */; };
 		8EA5F48D1FBDB315009EC1A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5F48C1FBDB315009EC1A6 /* AppDelegate.m */; };
 		8EA5F4901FBDB315009EC1A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5F48F1FBDB315009EC1A6 /* ViewController.m */; };
 		8EA5F4931FBDB315009EC1A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA5F4911FBDB315009EC1A6 /* Main.storyboard */; };
@@ -36,8 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8E853A9A1FC491360056C4BE /* blockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blockTest.h; sourceTree = "<group>"; };
-		8E853A9B1FC491360056C4BE /* blockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blockTest.m; sourceTree = "<group>"; };
 		8EA5F4881FBDB315009EC1A6 /* 123.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 123.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA5F48B1FBDB315009EC1A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8EA5F48C1FBDB315009EC1A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,8 +105,6 @@
 				8EA5F48C1FBDB315009EC1A6 /* AppDelegate.m */,
 				8EA5F48E1FBDB315009EC1A6 /* ViewController.h */,
 				8EA5F48F1FBDB315009EC1A6 /* ViewController.m */,
-				8E853A9A1FC491360056C4BE /* blockTest.h */,
-				8E853A9B1FC491360056C4BE /* blockTest.m */,
 				8EA5F4911FBDB315009EC1A6 /* Main.storyboard */,
 				8EA5F4941FBDB315009EC1A6 /* Assets.xcassets */,
 				8EA5F4961FBDB315009EC1A6 /* LaunchScreen.storyboard */,
@@ -271,7 +266,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EA5F4901FBDB315009EC1A6 /* ViewController.m in Sources */,
-				8E853A9C1FC491360056C4BE /* blockTest.m in Sources */,
 				8EA5F49B1FBDB315009EC1A6 /* main.m in Sources */,
 				8EA5F48D1FBDB315009EC1A6 /* AppDelegate.m in Sources */,
 			);

@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-//123123123123123
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-//456456
+
 @property (strong, nonatomic) UIWindow *window;
 
 
